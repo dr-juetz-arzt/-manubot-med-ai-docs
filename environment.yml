@@ -1,0 +1,12 @@
+name: manubot-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandoc
+  - pandoc-citeproc
+  - manubot
+  - pip
+  - pip:
+      - pandoc-eqnos
+      - pandoc-xnos
